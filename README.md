@@ -1,8 +1,11 @@
 <div align="center">
 
-<img src="./assets/banner.png" width="100%" alt="santdev — AI Engineer & Automation Specialist">
+<img src="https://raw.githubusercontent.com/santdevfull/santdevfull/main/assets/banner.png" width="100%" alt="santdev">
 
 <br>
+<br>
+
+# santdev
 
 ### AI Engineer · Automation · Intelligent Systems
 
@@ -10,10 +13,18 @@ Building intelligent systems that connect AI, automation, APIs and infrastructur
 
 <br>
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/santdevfull)
-[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)](https://openai.com)
-[![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)](https://n8n.io)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org)
+<a href="https://github.com/santdevfull">
+  <img src="https://img.shields.io/badge/GitHub-santdevfull-181717?style=flat-square&logo=github&logoColor=white">
+</a>
+<a href="https://openai.com">
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white">
+</a>
+<a href="https://n8n.io">
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white">
+</a>
+<a href="https://www.python.org">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+</a>
 
 </div>
 
@@ -24,10 +35,10 @@ Building intelligent systems that connect AI, automation, APIs and infrastructur
 I'm an **AI Engineer & Automation Specialist** focused on building
 intelligent systems that solve real-world problems.
 
-My work sits at the intersection of:
+My work combines:
 
 - Artificial Intelligence
-- LLM-powered systems
+- LLM-powered applications
 - AI Agents
 - Workflow Automation
 - APIs & Webhooks
@@ -35,9 +46,9 @@ My work sits at the intersection of:
 - Databases
 - Cloud infrastructure
 
-I enjoy taking an idea from a simple concept to a system that can
-**understand context, execute workflows, integrate with external services
-and operate reliably in production.**
+I focus on turning AI capabilities into **reliable systems that can
+understand context, execute workflows, integrate with external services
+and operate in production.**
 
 ---
 
@@ -45,115 +56,20 @@ and operate reliably in production.**
 
 <table>
 <tr>
-<td width="50%">
 
-### AI Agents
+<td width="50%" valign="top">
 
-Designing AI-powered systems capable of:
+### 🤖 AI Agents
 
-- Understanding context
-- Following structured processes
-- Calling external APIs
-- Maintaining conversation state
-- Executing automated actions
-
-</td>
-
-<td width="50%">
-
-### Automation
-
-Building workflows that connect:
-
-- APIs
-- Webhooks
-- Databases
-- AI models
-- External services
-- Business processes
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### Conversational Systems
-
-Developing intelligent support systems using:
-
-- LLMs
-- WhatsApp
-- Chatwoot
-- Context management
-- State machines
-- Human handoff
-
-</td>
-
-<td width="50%">
-
-### Infrastructure
-
-Working with:
-
-- Docker
-- Linux
-- AWS
-- PostgreSQL
-- Redis
-- Git / GitHub
-- Production deployments
-
-</td>
-</tr>
-</table>
-
----
-
-## `03` — Featured Project
-
-# 🤖 NivIA
-
-### AI-powered support & automation system
-
-**NivIA** is an AI-driven customer support system designed to automate
-complex conversational workflows while maintaining context, state and
-business rules.
-
-The system combines **LLMs, workflow automation, APIs and persistent
-state management** instead of treating the interaction as a simple
-question-and-answer chatbot.
-
-### Architecture
+Intelligent systems built around LLMs and structured decision-making.
 
 ```text
-                         ┌──────────────┐
-                         │   WhatsApp   │
-                         └──────┬───────┘
-                                │
-                                ▼
-                         ┌──────────────┐
-                         │   Chatwoot   │
-                         └──────┬───────┘
-                                │
-                                ▼
-                         ┌──────────────┐
-                         │     n8n      │
-                         │ Orchestrator │
-                         └──────┬───────┘
-                                │
-                 ┌──────────────┼──────────────┐
-                 │              │              │
-                 ▼              ▼              ▼
-          ┌────────────┐ ┌────────────┐ ┌────────────┐
-          │ AI / LLM   │ │    APIs    │ │ PostgreSQL │
-          │   Agent    │ │            │ │   State    │
-          └────────────┘ └────────────┘ └────────────┘
-                 │              │              │
-                 └──────────────┼──────────────┘
-                                ▼
-                         ┌──────────────┐
-                         │   Response   │
-                         │ / Automation │
-                         └──────────────┘
+LLM
+ ↓
+Context
+ ↓
+Agent
+ ↓
+Tools / APIs
+ ↓
+Action
