@@ -32,3 +32,6 @@ Executar com segredo no ambiente e volume persistente para /data. Nunca commitar
 Demo de portf?lio, n?o indicada para exposi??o p?blica sem rate limiting, HTTPS, gest?o de usu?rios, observabilidade e migra??es SQL. N?o faz varreduras autom?ticas de URLs cadastradas.
 
 **Stack:** FastAPI, Pydantic, SQLite, Pytest, Docker. **Licen?a:** MIT.
+
+## Demo web
+A pasta demo/ oferece uma simulacao interativa, local e sem backend da interface de incidentes. Nao eh a API FastAPI em producao. Para a API real, rode localmente ou hospede um servico Python e configure HTTPS e o banco persistente. Habilite **Settings > Pages > Source: GitHub Actions** no repositorio separado para disponibilizar o demo em https://santdevfull.github.io/pulseops/ apos sucesso do deploy.

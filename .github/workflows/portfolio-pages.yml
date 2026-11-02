@@ -1,0 +1,48 @@
+name: Publish portfolio demos (manual activation required)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: portfolio-pages
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: cd projects/habitflow && npm test
+      - run: cd projects/budgetlab && npm test
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r projects/pulseops/requirements.txt
+      - run: cd projects/pulseops && python -m pytest -q tests
+  deploy:
+    needs: verify
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Assemble static site
+        shell: bash
+        run: |
+          mkdir -p dist/habitflow dist/budgetlab dist/pulseops
+          cp projects/habitflow/{index.html,app.mjs,model.mjs,style.css} dist/habitflow/
+          cp projects/budgetlab/{index.html,app.mjs,model.mjs,style.css} dist/budgetlab/
+          cp -R projects/pulseops/demo/. dist/pulseops/
+          cp projects/index.html dist/index.html
+          touch dist/.nojekyll
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
+        id: deployment

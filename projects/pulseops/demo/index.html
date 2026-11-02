@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#071321">
+  <title>PulseOps | Live Preview</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#overview"><span class="logo">P</span><strong>PulseOps</strong><span class="brand-dot"></span></a>
+      <p class="label">WORKSPACE</p>
+      <nav aria-label="Navigation">
+        <a href="#overview" class="active">? &nbsp; Vis?o geral</a>
+        <a href="#services">? &nbsp; Servi?os</a>
+        <a href="#incidents">? &nbsp; Incidentes</a>
+      </nav>
+      <div class="sidebar-footer"><span class="pulse"></span> Ambiente de demonstra??o
+        <small>Os dados s?o fict?cios e permanecem neste navegador. Sem chamadas ? API real.</small>
+      </div>
+    </aside>
+    <main id="overview">
+      <header class="topbar"><div><div class="eyebrow">PAINEL OPERACIONAL <span> / </span> DEMO</div><h1>Service overview</h1><p class="sub">Monitoramento de status e gest?o de incidentes.</p></div>
+        <button class="ghost" id="reset" type="button">? Reiniciar demo</button></header>
+      <div class="notice"><span>?</span><div><strong>Modo simulado</strong><p>Esta ? uma demonstra??o interativa da interface. A API FastAPI, o SQLite e a autentica??o funcionam no projeto backend, mas n?o est?o conectados a esta p?gina.</p></div></div>
+      <div class="cards" aria-label="Key metrics">
+        <article class="metric"><p>Servi?os registrados</p><strong id="metric-services">?</strong><small>Cat?logo de aplica??es</small></article>
+        <article class="metric"><p>Incidentes ativos</p><strong id="metric-open">?</strong><small>Aguardando resolu??o</small></article>
+        <article class="metric"><p>Sa?de do ambiente</p><strong id="metric-health" class="state">?</strong><small>Conforme incidentes ativos</small></article>
+      </div>
+      <div class="columns">
+        <section class="panel" id="services">
+          <div class="section-heading"><div><div class="eyebrow">INFRASTRUCTURE</div><h2>Servi?os</h2></div><span class="count" id="service-count"></span></div>
+          <form id="service-form" class="form" autocomplete="off">
+            <label>Nome do servi?o<input id="service-name" placeholder="Ex.: Gateway de pagamentos" required maxlength="80"></label>
+            <label>URL do servi?o<input id="service-url" type="url" placeholder="https://exemplo.com" required></label>
+            <button class="primary" type="submit">+ Adicionar servi?o</button>
+          </form>
+          <ul id="service-list" class="rows" aria-live="polite"></ul>
+        </section>
+        <section class="panel" id="incidents">
+          <div class="section-heading"><div><div class="eyebrow">INCIDENT CENTER</div><h2>Incidentes</h2></div><span class="count" id="incident-count"></span></div>
+          <form id="incident-form" class="form" autocomplete="off">
+            <label>T?tulo do incidente<input id="incident-title" placeholder="Ex.: Lat?ncia elevada" required maxlength="120"></label>
+            <label>Servi?o afetado<select id="incident-service" required></select></label>
+            <button class="primary" type="submit">+ Abrir incidente</button>
+          </form>
+          <ul id="incident-list" class="rows" aria-live="polite"></ul>
+        </section>
+      </div>
+      <footer>PulseOps ? Interactive frontend simulation ? <a href="https://github.com/santdevfull/santdevfull/tree/main/projects/pulseops" rel="noopener noreferrer">Ver c?digo e API</a></footer>
+    </main>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
