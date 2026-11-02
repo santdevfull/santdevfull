@@ -28,3 +28,17 @@
 ## Reproduction
 - Start static site from projects with Python http.server.
 - Browser QA scripts are in the sibling local portfolio-qa directory.
+
+
+## Second design iteration: motion + original video
+- Reference visually inspected: https://quayside-template.modulify.website/ (no template source/assets used).
+- Original video: projects/media/signal-flow.webm (216KB), poster WebP (15KB), encoded locally with Chromium MediaRecorder.
+- Source material is abstract generated network flow: illustrative only, no production data or clients.
+- Browser tests: 1440, 768, 390 and 320px: all zero horizontal overflow, 15 project cards, no JS errors.
+- Motion controls: video decodes, pauses/resumes, i18n labels and reduced-motion behavior tested.
+- Save Data and hidden-tab pause paths implemented.
+- Automated axe-core WCAG2 A/AA and WCAG2.1 A/AA on desktop after animation settles: zero violations.
+- Static unit tests: 11 passing, including media integrity/byte limits.
+- Reduced-motion browser emulation: video remains paused and ticker has no animation.
+- Accessibility statement: automated checks are not full assistive-technology or human testing.
+- New assets and implementation published only in the portfolio's public website, not NivIA infrastructure.

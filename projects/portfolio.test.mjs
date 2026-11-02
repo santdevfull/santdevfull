@@ -82,3 +82,27 @@ test("no third-party script trackers", () => {
   assert.doesNotMatch(html, /<script[^>]+src="https?:\/\//);
   assert.doesNotMatch(html, /googletagmanager|gtag\(|facebook\.net/);
 });
+
+test("motion showcase has a semantic user-controlled original video", () => {
+  assert.match(html, /id="motion"/);
+  assert.match(html, /id="flow-film"/);
+  assert.match(html, /id="motion-toggle"/);
+  assert.match(html, /muted loop playsinline/);
+  assert.doesNotMatch(html, /autoplay muted loop playsinline/);
+  assert.match(html, /signal-flow\.webm/);
+  assert.match(html, /signal-flow-poster\.webp/);
+  const motionCode = fs.readFileSync(path.join(here,"portfolio-motion.js"),"utf8");
+  assert.match(motionCode, /prefers-reduced-motion/);
+  assert.match(motionCode, /IntersectionObserver/);
+  assert.match(motionCode, /visibilitychange/);
+  assert.match(motionCode, /pointerleave/);
+});
+
+test("motion media is local, compact, and has a fallback poster", () => {
+  const video = fs.readFileSync(path.join(here,"media/signal-flow.webm"));
+  const poster = fs.readFileSync(path.join(here,"media/signal-flow-poster.webp"));
+  assert.ok(video.length > 1000 && video.length < 800000,"Video should be optimized");
+  assert.ok(poster.length > 1000 && poster.length < 100000,"Poster should be optimized");
+  assert.equal(video.subarray(0,4).toString("hex"),"1a45dfa3","Valid WebM EBML");
+  assert.equal(poster.subarray(0,4).toString("ascii"),"RIFF","Valid WebP");
+});

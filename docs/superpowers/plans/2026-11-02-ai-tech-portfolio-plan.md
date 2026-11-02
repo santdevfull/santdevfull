@@ -46,3 +46,11 @@ Files: .github/workflows/portfolio-pages.yml, .github/workflows/portfolio-ci.yml
 - [ ] Update distribution copy rules and site CI.
 - [ ] Run full local tests, commit and push.
 - [ ] Verify GitHub Actions success, HTTP 200 and correct production title.
+
+
+### Task 5: Cinematic iteration from Quayside reference
+- [x] Capture and inspect Quayside visual language, with original portfolio interpretation.
+- [x] Generate own procedural animation and lightweight WebM/WebP assets.
+- [x] Implement translucent motion panel, timeline ticker, tilt and paused-on-demand control.
+- [x] Verify 4 viewports, play/pause, PT/EN, reduced motion and contrast.
+- [ ] Publish via existing GitHub Pages workflow and verify in production.

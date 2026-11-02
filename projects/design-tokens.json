@@ -33,5 +33,24 @@
     "Diagram is conceptual, not a production architecture disclosure",
     "Use real evidence and source-limited claims",
     "Preserve accessible keyboard and reduced-motion use"
-  ]
+  ],
+  "motion": {
+    "fast": "180ms",
+    "normal": "440ms",
+    "slow": "760ms",
+    "ease": "cubic-bezier(.22, 1, .36, 1)",
+    "loop": "6.1s original WebM",
+    "reducedMotion": "poster only by default; no continuous ticker"
+  },
+  "material": {
+    "nav": "rgba(250,248,243,.72) + 20px backdrop blur",
+    "card": "semi-transparent pine glass",
+    "overlay": "light technical glass on original media",
+    "environment": "subtle peach/lilac atmosphere"
+  },
+  "reference": {
+    "url": "https://quayside-template.modulify.website/",
+    "adapted": "editorial hierarchy, floating motion, soft ambient color, ticker and responsive media",
+    "notCopied": "branding, logistics copy, live metrics, art and assets"
+  }
 }
