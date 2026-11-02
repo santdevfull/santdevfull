@@ -1,0 +1,4 @@
+export function line(description,quantity,unitPrice,id=crypto.randomUUID()){const q=Number(quantity),cents=Math.round(Number(unitPrice)*100);if(!description.trim()||!Number.isInteger(q)||q<1||q>10000||!Number.isSafeInteger(cents)||cents<1)throw Error("Item inv?lido");return{id,description:description.trim(),quantity:q,cents}}
+export function summary(items,taxPercent=0){const percent=Number(taxPercent);if(!Number.isFinite(percent)||percent<0||percent>100)throw Error("Percentual inv?lido");const subtotal=items.reduce((s,x)=>s+x.quantity*x.cents,0),tax=Math.round(subtotal*percent/100);return{subtotal,tax,total:subtotal+tax}}
+export function money(cents){return new Intl.NumberFormat("pt-BR",{style:"currency",currency:"BRL"}).format(cents/100)}
+export function read(raw){try{const rows=JSON.parse(raw);return Array.isArray(rows)?rows.filter(x=>x&&typeof x.id==="string"&&Number.isSafeInteger(x.cents)&&x.cents>0&&Number.isInteger(x.quantity)):[]}catch{return []}}

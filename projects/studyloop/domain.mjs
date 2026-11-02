@@ -1,0 +1,4 @@
+export function card(front,back,id=crypto.randomUUID()){front=front.trim();back=back.trim();if(!front||!back||front.length>160||back.length>700)throw Error("Pergunta e resposta obrigat?rias");return{id,front,back,interval:0,repetitions:0,due:"1970-01-01"}}
+export function review(c,good,day="2026-11-02"){const repetitions=good?c.repetitions+1:0,interval=good?(repetitions===1?1:repetitions===2?3:Math.min(365,Math.round(c.interval*2.3))):1;const d=new Date(day+"T12:00:00Z");if(Number.isNaN(d.getTime()))throw Error("Data inv?lida");d.setUTCDate(d.getUTCDate()+interval);return{...c,repetitions,interval,due:d.toISOString().slice(0,10)}}
+export function due(cards,day){return cards.filter(c=>c.due<=day)}
+export function read(raw){try{const a=JSON.parse(raw);return Array.isArray(a)?a.filter(c=>c&&typeof c.id==="string"&&typeof c.front==="string"&&typeof c.back==="string"&&typeof c.due==="string"):[]}catch{return []}}

@@ -1,0 +1,19 @@
+:root{color-scheme:dark;--bg:#08111f;--card:#102135;--border:#284159;--text:#edf5ff;--muted:#93a9ba;--mint:#51e5bb;--accent:#7867ff;font-family:Inter,ui-sans-serif,system-ui}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 80% 0,#122e41 0,transparent 45%),var(--bg);color:var(--text)}
+main{max-width:1100px;margin:auto;padding:48px 20px}header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.eyebrow{text-transform:uppercase;letter-spacing:.2em;font-size:11px;color:var(--mint);font-weight:700}h1{font-size:clamp(2.3rem,5vw,3.8rem);letter-spacing:-.045em;margin:18px 0 8px}h2{font-size:1.2rem;margin-top:0}.lead{max-width:700px;color:var(--muted);line-height:1.6}
+a{color:var(--mint)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px;margin-top:28px}
+.panel{background:var(--card);border:1px solid var(--border);padding:24px;border-radius:18px;margin:18px 0;min-width:0}.panel.full{grid-column:1/-1}
+button,input,textarea,select{font:inherit;border-radius:9px;padding:11px;border:1px solid #35526c;background:#081829;color:var(--text);max-width:100%}
+button{background:var(--accent);cursor:pointer;border:0;font-weight:700}button:hover{filter:brightness(1.13)}
+button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid var(--mint);outline-offset:2px}
+button.secondary{background:#234457}button.danger{background:#73364d}
+input[type=checkbox]{accent-color:var(--mint);height:18px;width:18px}input[type=color]{height:54px;padding:4px;width:100%}
+label{display:block;color:#c3d2df;font-size:13px;margin:12px 0 6px}label input,label textarea,label select{display:block;width:100%;margin:7px 0 0}
+textarea{min-height:110px;resize:vertical}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}
+.stat{font-size:2.4rem;font-weight:750;letter-spacing:-.045em;color:var(--mint)}.muted{color:var(--muted)}ul{list-style:none;padding:0;margin:12px 0}
+li{padding:14px 0;border-bottom:1px solid var(--border);display:flex;gap:10px;align-items:center;justify-content:space-between}
+li:last-child{border:0}.sub{font-size:12px;color:var(--muted);margin-top:5px}
+.pill{font-size:12px;border-radius:99px;background:#234452;color:#b7edda;padding:5px 10px}
+footer{margin:28px 0;font-size:12px;color:var(--muted)}.swatch{height:130px;border-radius:14px;border:1px solid #304253}
+@media(max-width:600px){main{padding:24px 12px}.panel{padding:18px}li{align-items:flex-start}}

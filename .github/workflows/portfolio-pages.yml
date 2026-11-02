@@ -37,8 +37,16 @@ jobs:
         run: |
           mkdir -p dist/habitflow dist/budgetlab dist/pulseops/demo
           cp projects/habitflow/{index.html,app.mjs,model.mjs,style.css} dist/habitflow/
+          for name in focusforge chromacheck notevault typemeter sprintboard studyloop invoicekit datalens; do
+            mkdir -p dist/$name
+            cp projects/$name/{index.html,app.mjs,domain.mjs,styles.css} dist/$name/
+          done
           cp projects/budgetlab/{index.html,app.mjs,model.mjs,style.css} dist/budgetlab/
           cp -R projects/pulseops/demo/. dist/pulseops/demo/
+          for name in flagpilot queuecraft ledgerforge eventshield; do
+            mkdir -p dist/$name
+            cp -R projects/$name/docs/. dist/$name/
+          done
           cp projects/index.html dist/index.html
           touch dist/.nojekyll
       - uses: actions/upload-pages-artifact@v4
