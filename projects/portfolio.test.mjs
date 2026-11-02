@@ -83,26 +83,23 @@ test("no third-party script trackers", () => {
   assert.doesNotMatch(html, /googletagmanager|gtag\(|facebook\.net/);
 });
 
-test("motion showcase has a semantic user-controlled original video", () => {
-  assert.match(html, /id="motion"/);
-  assert.match(html, /id="flow-film"/);
-  assert.match(html, /id="motion-toggle"/);
-  assert.match(html, /muted loop playsinline/);
-  assert.doesNotMatch(html, /autoplay muted loop playsinline/);
-  assert.match(html, /signal-flow\.webm/);
-  assert.match(html, /signal-flow-poster\.webp/);
-  const motionCode = fs.readFileSync(path.join(here,"portfolio-motion.js"),"utf8");
-  assert.match(motionCode, /prefers-reduced-motion/);
-  assert.match(motionCode, /IntersectionObserver/);
-  assert.match(motionCode, /visibilitychange/);
-  assert.match(motionCode, /pointerleave/);
+test("the portfolio uses a designed conceptual panel and no video", () => {
+  assert.match(html, /class="ai-surface"/);
+  assert.match(html, /id="method"/);
+  assert.match(html, /class="method-grid"/);
+  assert.doesNotMatch(html, /<video|<source[^>]+video|id="flow-film"|id="motion-toggle"|id="motion"/i);
+  assert.doesNotMatch(html, /signal-flow\.webm/);
+  assert.match(html, /portfolio-refinement\.css/);
+  assert.match(html, /R&amp;D \/ QA/);
 });
 
-test("motion media is local, compact, and has a fallback poster", () => {
-  const video = fs.readFileSync(path.join(here,"media/signal-flow.webm"));
-  const poster = fs.readFileSync(path.join(here,"media/signal-flow-poster.webp"));
-  assert.ok(video.length > 1000 && video.length < 800000,"Video should be optimized");
-  assert.ok(poster.length > 1000 && poster.length < 100000,"Poster should be optimized");
-  assert.equal(video.subarray(0,4).toString("hex"),"1a45dfa3","Valid WebM EBML");
-  assert.equal(poster.subarray(0,4).toString("ascii"),"RIFF","Valid WebP");
+test("reduced-motion and semantic hierarchy survive the replacement", () => {
+  const refinement = fs.readFileSync(path.join(here,"portfolio-refinement.css"),"utf8");
+  const motionCode = fs.readFileSync(path.join(here,"portfolio-motion.js"),"utf8");
+  assert.match(refinement, /prefers-reduced-motion/);
+  assert.match(motionCode, /IntersectionObserver/);
+  assert.match(motionCode, /readingProgress|ReadingProgress/);
+  assert.doesNotMatch(motionCode, /\.play\(|flow-film|MediaRecorder|pauseFilm/);
+  assert.match(html, /Human-in-the-loop|humano|human handoff|humano/i);
+  assert.ok((html.match(/<h1\b/g)||[]).length===1);
 });

@@ -42,3 +42,14 @@
 - Reduced-motion browser emulation: video remains paused and ticker has no animation.
 - Accessibility statement: automated checks are not full assistive-technology or human testing.
 - New assets and implementation published only in the portfolio's public website, not NivIA infrastructure.
+
+## Third iteration: panel refinement and video removal (supersedes second iteration)
+- User requested removal of low-quality video and replacement of green right-side hero diagram.
+- HTML no longer contains video, source or playback controls. The WebM/WebP media files were deleted from source; Pages artifact no longer copies them.
+- portfolio-motion.js reduced to reading progress plus optional, nonessential reveals; no media APIs.
+- Hero now contains a compact dark-slate NivIA architecture study with labeled QA status and central context node.
+- Replaced film with a three-card static editorial principles section; no production stats are implied.
+- Local Playwright tested 1440, 768, 390 and 320 px; no overflow, JS runtime errors, or video requests; 15 projects visible.
+- Local axe WCAG A/AA automatic audit: 0 violations after contrast correction.
+- Search, category filters, PT/EN, reduced-motion and navigation verified.
+- Initial QA iteration found/fixed an extraneous grid item and localized line-break handling.

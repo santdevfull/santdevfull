@@ -35,3 +35,16 @@ Observed: warm ambient gradients, oversized editorial hero, floating map card, v
 - Scroll progress, subtle fine-pointer tilt, curated one-time reveals, tech ticker, viewport-gated video. Playback controls, hidden-page pause, reduced-motion poster default.
 - Media authored with browser canvas and MediaRecorder: original VP9 WebM plus WebP poster under projects/media.
 - The reference is a logistics template; this is an AI/software engineering portfolio, not a copy of that site.
+
+## Panel and video replacement ? visual refinement (2026-11-02)
+
+**Latest direction (supersedes the Quayside-based film experiment):**
+- Removed the video section, original WebM and WebP assets, autoplay logic and ticker. The video was considered visually insufficient for the portfolio.
+- Replaced the saturated green, uniform four-box right hero panel with an original, structured NivIA / Systems study surface: midnight slate, focused cobalt-blue core, distinct input/context/output nodes and supportive capabilities.
+- The primary surface is explicitly conceptual: R&D/QA, not production telemetry. No fake uptime, performance numbers or customer data.
+- Added a non-video editorial method section with three actual design principles: understand context, verify state and provide human escalation. This retains the portfolio's AI/tech objective.
+- Tokens and CSS live in projects/portfolio-refinement.css layered over the existing stable system. Backdrop blur is used only on the nav, not as decoration on every card.
+- Motion is limited to scroll progress and restrained one-time reveals. Keyboard focus, reduced motion, bilingual content and filters remain.
+- Visual hierarchy inspired by clean, high-density Linear/Raycast/Stripe design principles, without copying proprietary UI assets.
+
+Validation: Node portfolio tests, real-browser responsive screenshots, accessibility checks and GitHub Actions.

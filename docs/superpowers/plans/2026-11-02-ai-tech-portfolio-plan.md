@@ -54,3 +54,10 @@ Files: .github/workflows/portfolio-pages.yml, .github/workflows/portfolio-ci.yml
 - [x] Implement translucent motion panel, timeline ticker, tilt and paused-on-demand control.
 - [x] Verify 4 viewports, play/pause, PT/EN, reduced motion and contrast.
 - [ ] Publish via existing GitHub Pages workflow and verify in production.
+
+### Task 6: Premium static hero update
+- [x] Remove the low-quality video from the page, git-tracked assets and deployment workflow.
+- [x] Replace the saturated green four-row mockup with a refined conceptual NivIA panel.
+- [x] Add engineering principles section and rebalance desktop/mobile hero.
+- [x] Test responsive display, i18n, filters, media absence and automated WCAG A/AA.
+- [ ] Publish and verify the official GitHub Pages deploy.

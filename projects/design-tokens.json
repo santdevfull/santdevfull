@@ -36,21 +36,20 @@
   ],
   "motion": {
     "fast": "180ms",
-    "normal": "440ms",
-    "slow": "760ms",
-    "ease": "cubic-bezier(.22, 1, .36, 1)",
-    "loop": "6.1s original WebM",
-    "reducedMotion": "poster only by default; no continuous ticker"
+    "normal": "260ms",
+    "slow": "600ms",
+    "reducedMotion": "reveal disabled; no autoplay media"
   },
   "material": {
-    "nav": "rgba(250,248,243,.72) + 20px backdrop blur",
-    "card": "semi-transparent pine glass",
-    "overlay": "light technical glass on original media",
-    "environment": "subtle peach/lilac atmosphere"
+    "surface": "midnight slate + focused cobalt core",
+    "nav": "translucent neutral light",
+    "method": "flat editorial cards with purposeful diagrams",
+    "ambient": "soft neutral"
   },
   "reference": {
     "url": "https://quayside-template.modulify.website/",
     "adapted": "editorial hierarchy, floating motion, soft ambient color, ticker and responsive media",
     "notCopied": "branding, logistics copy, live metrics, art and assets"
-  }
+  },
+  "latestDesign": "NivIA / Systems surface, no video; editorial engineering principles section"
 }

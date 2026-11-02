@@ -19,6 +19,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./portfolio.css">
+  <link rel="stylesheet" href="./portfolio-refinement.css">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Person","name":"Cauê Santiago","url":"https://santdevfull.github.io/santdevfull/","sameAs":["https://github.com/santdevfull","https://www.linkedin.com/in/cau%C3%AA-santiago-6432a4229"],"knowsAbout":["Artificial Intelligence","IT Automation","Python","Cloud Computing","IT Service Management","REST APIs"]}
   </script>
@@ -51,39 +52,79 @@
 </header>
 <main id="main">
   <section class="hero layout" id="top" aria-labelledby="hero-title">
-    <div class="hero-haze" aria-hidden="true"><span></span><span></span><span></span></div>
     <div class="hero-copy">
       <div class="availability-line"><span class="live-indicator" aria-hidden="true"></span><span data-en="AI engineering · automation · cloud">Engenharia de IA · automação · cloud</span></div>
       <h1 id="hero-title"><span data-en="From solving tickets">Do chamado técnico</span><span class="hero-last" data-en="to building intelligent systems.">à construção de sistemas inteligentes.</span></h1>
       <p class="hero-dek" data-en="I bring hands-on IT operations experience to applied AI, software engineering and automation. I turn repetitive workflows into verifiable systems designed for real people.">Uno experiência real em operações de TI à IA aplicada, engenharia de software e automação. Transformo rotinas repetitivas em sistemas verificáveis, pensados para pessoas reais.</p>
       <div class="hero-cta">
         <a class="button button-primary" href="#cases"><span data-en="Explore case studies">Explorar estudos de caso</span><span aria-hidden="true">↗</span></a>
-        <a class="text-link hero-watch" href="#motion"><span class="watch-icon" aria-hidden="true">&#9654;</span><span data-en="Watch the flow">Assistir ao fluxo</span></a>
+        <a class="text-link hero-watch" href="#method"><span class="watch-icon" aria-hidden="true">&#8599;</span><span data-en="How I build">Como eu construo</span></a>
         <a class="text-link hero-mail" href="mailto:cauesantiagosilva@gmail.com"><span data-en="Email me">Conversar por e-mail</span><span aria-hidden="true">↗</span></a>
       </div>
       <div class="hero-footnote"><span class="slash" aria-hidden="true">//</span><span data-en="São Paulo, Brazil · IT operations background · AI & software projects">São Paulo, Brasil · Base em operações de TI · Projetos em IA e software</span></div>
     </div>
-    <div class="system-card" aria-label="Diagrama conceitual de automação de atendimento e IA">
-      <div class="system-topline"><span class="system-led"><span></span> CASE STUDY / NivIA</span><span>system.map / concept</span></div>
-      <div class="system-headline"><span data-en="Engineering reliable decisions">Engenharia de decisões confiáveis</span><small data-en="Illustrative flow — not a production topology">Fluxo ilustrativo — não representa ambiente produtivo</small></div>
-      <div class="signal-map">
-        <div class="flow-row row-1"><div class="flow-icon"><span>01</span></div><div class="flow-body"><strong data-en="Customer input">Entrada do cliente</strong><small data-en="Conversation / screenshot">Conversa / captura de tela</small></div><span class="flow-tag">INPUT</span></div>
-        <div class="flow-line" aria-hidden="true"></div>
-        <div class="flow-row row-2"><div class="flow-icon"><span>02</span></div><div class="flow-body"><strong data-en="Context & vision">Contexto &amp; visão</strong><small data-en="Read, classify, enrich">Ler, classificar, contextualizar</small></div><span class="flow-tag">AI</span></div>
-        <div class="flow-line" aria-hidden="true"></div>
-        <div class="flow-row row-3"><div class="flow-icon"><span>03</span></div><div class="flow-body"><strong data-en="Rules & verification">Regras &amp; validação</strong><small data-en="State, safe routing, regression">Estado, roteamento, regressão</small></div><span class="flow-tag">CORE</span></div>
-        <div class="flow-line" aria-hidden="true"></div>
-        <div class="flow-row row-4"><div class="flow-icon"><span>04</span></div><div class="flow-body"><strong data-en="Guidance or human handoff">Orientação ou transferência humana</strong><small data-en="Short steps, traceable action">Passos curtos, ação rastreável</small></div><span class="flow-tag">OUT</span></div>
+    <aside class="ai-surface" aria-label="NivIA architecture concept">
+      <div class="ai-surface__top">
+        <div class="ai-surface__identity">
+          <span class="ai-surface__mark" aria-hidden="true">
+            <svg viewBox="0 0 36 36" width="27" height="27" fill="none" stroke="currentColor" stroke-width="1.4">
+              <circle cx="18" cy="18" r="5"/><circle cx="18" cy="18" r="13" stroke-opacity=".35"/>
+              <path d="M18 2v7M18 27v7M2 18h7M27 18h7"/>
+            </svg>
+          </span>
+          <span class="ai-surface__identity-text"><strong>NivIA / Systems</strong><small data-en="Support intelligence | case study">Intelig&#234;ncia de suporte | estudo de caso</small></span>
+        </div>
+        <span class="ai-surface__qa">R&amp;D / QA</span>
       </div>
-      <div class="system-bottom"><span><i aria-hidden="true"></i> <span data-en="Systems thinking over hype">Engenharia acima de promessas</span></span><span>PT / EN</span></div>
-    </div>
+
+      <div class="ai-surface__intro">
+        <span class="ai-surface__eyebrow">ARCHITECTURE NOTE <span> / </span> 001</span>
+        <h2><span data-en="Context first.">Contexto primeiro.</span><br><span data-en="Reliable actions.">A&#231;&#245;es seguras.</span></h2>
+        <p data-en="Screen-aware assistance, validation and human handoff, designed for safer customer journeys.">Interpreta&#231;&#227;o de telas, valida&#231;&#227;o e encaminhamento humano para jornadas mais seguras.</p>
+      </div>
+
+      <div class="ai-surface__diagram" aria-label="Conceptual flow: input, context, response">
+        <div class="ai-surface__diagram-head">
+          <span>FLOW / 01</span>
+          <span class="ai-surface__diagram-note" data-en="Illustrative pipeline">Fluxo ilustrativo</span>
+        </div>
+        <div class="ai-surface__nodes">
+          <div class="ai-node ai-node--soft">
+            <span class="ai-node__num">01 / IN</span>
+            <svg class="ai-node__icon" viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="4" y="6" width="22" height="17" rx="4"/><path d="M9 12h12M9 17h8"/></svg>
+            <strong data-en="Input">Entrada</strong>
+            <small data-en="Message / image">Mensagem / print</small>
+          </div>
+          <span class="ai-node__arrow" aria-hidden="true">&#8594;</span>
+          <div class="ai-node ai-node--primary">
+            <span class="ai-node__num">02 / CORE</span>
+            <svg class="ai-node__icon" viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="15" cy="15" r="9"/><circle cx="15" cy="15" r="3"/><path d="M15 2v4M15 24v4M2 15h4M24 15h4"/></svg>
+            <strong data-en="Context">Contexto</strong>
+            <small>Vision + Rules</small>
+          </div>
+          <span class="ai-node__arrow" aria-hidden="true">&#8594;</span>
+          <div class="ai-node ai-node--soft">
+            <span class="ai-node__num">03 / OUT</span>
+            <svg class="ai-node__icon" viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 4h16v20H7z"/><path d="m11 15 3 3 6-7"/></svg>
+            <strong data-en="Guidance">Orienta&#231;&#227;o</strong>
+            <small data-en="Or handoff">Ou humano</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="ai-surface__capabilities" aria-label="Design principles">
+        <div class="ai-capability"><span class="ai-capability__icon" aria-hidden="true">&#9673;</span><span><small data-en="Interpret">Interpretar</small><strong data-en="Screen context">Contexto da tela</strong></span></div>
+        <div class="ai-capability"><span class="ai-capability__icon" aria-hidden="true">&#10003;</span><span><small data-en="Verify">Validar</small><strong data-en="Safety rules">Regras seguras</strong></span></div>
+        <div class="ai-capability"><span class="ai-capability__icon" aria-hidden="true">&#8599;</span><span><small data-en="Escalate">Escalonar</small><strong data-en="Human fallback">Apoio humano</strong></span></div>
+      </div>
+
+      <div class="ai-surface__foot">
+        <span class="ai-surface__foot-rule" aria-hidden="true"></span>
+        <span data-en="Conceptual architecture, not live production telemetry">Fluxo ilustrativo, não representa ambiente produtivo</span>
+        <span class="ai-surface__foot-dot" aria-hidden="true"></span>
+      </div>
+    </aside>
   </section>
-  <div class="signal-ticker" aria-hidden="true">
-    <div class="signal-ticker-track">
-      <span>PYTHON / FASTAPI</span><i>&#10022;</i><span>AI AGENTS / VISION</span><i>&#10022;</i><span>AUTOMA&#199;&#195;O / ITSM</span><i>&#10022;</i><span>CLOUD / DOCKER</span><i>&#10022;</i><span>HUMAN HANDOFF / QA</span><i>&#10022;</i>
-      <span>PYTHON / FASTAPI</span><i>&#10022;</i><span>AI AGENTS / VISION</span><i>&#10022;</i><span>AUTOMA&#199;&#195;O / ITSM</span><i>&#10022;</i><span>CLOUD / DOCKER</span><i>&#10022;</i><span>HUMAN HANDOFF / QA</span><i>&#10022;</i>
-    </div>
-  </div>
   <div class="proof-bar" aria-label="Indicadores profissionais">
     <div class="layout proof-grid">
       <div class="proof-item"><strong>~30%</strong><span data-en="fewer manual tickets after ITSM automation¹">menos tickets manuais após automação ITSM¹</span></div>
@@ -93,40 +134,34 @@
     </div>
     <p class="proof-note layout" data-en="¹ Metrics and certifications reported in the professional résumé; figures refer to the experiences described, not the AI case study.">¹ Métricas e certificações informadas no currículo profissional; referem-se às experiências descritas, não ao estudo de caso de IA.</p>
   </div>
-  <section class="motion-section" id="motion" aria-labelledby="motion-title">
+  <section class="method-section" id="method" aria-labelledby="method-title">
     <div class="layout">
-      <div class="motion-heading">
-        <div>
-          <p class="section-overline" data-en="A visual story of systems">Uma hist&#243;ria visual de sistemas</p>
-          <h2 id="motion-title" data-en="Intelligence in motion.">Intelig&#234;ncia em movimento.</h2>
-        </div>
-        <p data-en="A visual study of how information becomes guidance - from a user's message to validation and the next safe step.">Uma representa&#231;&#227;o visual de como informa&#231;&#227;o se transforma em orienta&#231;&#227;o ? da mensagem inicial &#224; valida&#231;&#227;o e ao pr&#243;ximo passo seguro.</p>
+      <div class="method-intro">
+        <div><p class="section-overline" data-en="Engineering principles / 01?03">Princ&#237;pios de engenharia / 01?03</p>
+        <h2 id="method-title"><span data-en="Less spectacle.">Menos espet&#225;culo.</span><br><span data-en="More reliability.">Mais confiabilidade.</span></h2></div>
+        <p data-en="A good AI workflow is not just a model answering. It is knowing the context, verifying the next action and recognizing when to involve a person.">Um bom fluxo de IA n&#227;o &#233; apenas um modelo respondendo. &#201; entender o contexto, validar a pr&#243;xima a&#231;&#227;o e saber quando envolver uma pessoa.</p>
       </div>
-      <div class="motion-viewport">
-        <video id="flow-film" class="motion-film" muted loop playsinline preload="metadata" poster="./media/signal-flow-poster.webp" aria-hidden="true">
-          <source src="./media/signal-flow.webm" type="video/webm">
-        </video>
-        <div class="motion-veil" aria-hidden="true"></div>
-        <div class="motion-film-ui">
-          <div class="motion-film-top"><span class="motion-film-indicator"><i></i> <span data-en="Visual study / AI operations">Estudo visual / opera&#231;&#245;es com IA</span></span><span class="motion-frame-mark">CS / SIGNAL / 01</span></div>
-          <div class="motion-film-center">
-            <span class="motion-floating-label"><span class="floating-dot"></span> <span data-en="Context recognized">Contexto reconhecido</span></span>
-            <span class="motion-floating-label second"><span class="floating-dot"></span> <span data-en="Rules verified">Regras verificadas</span></span>
-          </div>
-          <div class="motion-film-footer">
-            <div class="motion-film-caption">
-              <span class="motion-caption-index">01 / 03</span>
-              <strong data-en="From signal to useful response.">Do sinal &#224; resposta &#250;til.</strong>
-              <small data-en="Original conceptual animation - not a live production system">Anima&#231;&#227;o conceitual original - n&#227;o representa sistema produtivo em tempo real</small>
-            </div>
-            <button type="button" id="motion-toggle" class="motion-control" aria-label="Pausar v&#237;deo" aria-pressed="false">
-              <span class="motion-toggle-icon" aria-hidden="true">&#8545;</span>
-              <span id="motion-toggle-label" data-en="Pause video">Pausar v&#237;deo</span>
-            </button>
-          </div>
-        </div>
+      <div class="method-grid">
+        <article class="method-card method-card--first">
+          <div class="method-card__top"><span>01 / UNDERSTAND</span><span class="method-card__symbol" aria-hidden="true">&#9678;</span></div>
+          <div class="method-card__art method-card__art--context" aria-hidden="true"><span></span><span></span><span></span></div>
+          <h3 data-en="Context before automation.">Contexto antes da automa&#231;&#227;o.</h3>
+          <p data-en="Read the actual situation before suggesting a step. Screens, history and state matter.">Entender a situa&#231;&#227;o antes de sugerir um passo. Tela, hist&#243;rico e estado importam.</p>
+        </article>
+        <article class="method-card method-card--center">
+          <div class="method-card__top"><span>02 / VERIFY</span><span class="method-card__symbol" aria-hidden="true">&#10003;</span></div>
+          <div class="method-card__art method-card__art--verify" aria-hidden="true"><span></span><span></span><span></span></div>
+          <h3 data-en="Guardrails before action.">Valida&#231;&#227;o antes da a&#231;&#227;o.</h3>
+          <p data-en="Rules, tests and state checks help prevent duplicated messages and unsafe guidance.">Regras, testes e verifica&#231;&#227;o de estado ajudam a evitar respostas duplicadas e orienta&#231;&#245;es incorretas.</p>
+        </article>
+        <article class="method-card method-card--last">
+          <div class="method-card__top"><span>03 / HANDOFF</span><span class="method-card__symbol" aria-hidden="true">&#8599;</span></div>
+          <div class="method-card__art method-card__art--handoff" aria-hidden="true"><span></span><span></span><span></span></div>
+          <h3 data-en="Human when it matters.">Humano quando importa.</h3>
+          <p data-en="Traceable escalation preserves context and makes the next step clearer.">Escalonamento rastre&#225;vel preserva o contexto e torna o pr&#243;ximo passo mais claro.</p>
+        </article>
       </div>
-      <div class="motion-after"><span><span class="motion-after-line"></span> <span data-en="Concept film - no client or production data">Filme conceitual - sem dados de clientes ou de produ&#231;&#227;o</span></span><span>WEBM / SILENT LOOP</span></div>
+      <p class="method-note" data-en="Illustrative design principles based on engineering and QA work. No live telemetry or client data.">Princ&#237;pios ilustrativos baseados em engenharia e QA. Sem telemetria real ou dados de clientes.</p>
     </div>
   </section>
   <section class="section layout cases-section" id="cases" aria-labelledby="cases-title">
