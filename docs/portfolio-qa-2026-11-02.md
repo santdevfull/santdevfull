@@ -53,3 +53,21 @@
 - Local axe WCAG A/AA automatic audit: 0 violations after contrast correction.
 - Search, category filters, PT/EN, reduced-motion and navigation verified.
 - Initial QA iteration found/fixed an extraneous grid item and localized line-break handling.
+
+## Fourth iteration: site-wide premium blue + current eSIM?s experience
+- Design tokens follow the NivIA slate/blue panel instead of mixed warm/green surfaces.
+- All major sections, buttons, tags, cards, timelines, filters and footer are themed.
+- eSIM?s appears first on professional timeline as ongoing work; no title or start date fabricated.
+- NivIA study links current work to eSIM's while retaining QA/experimental status.
+- Browser, accessibility and live GitHub Pages results recorded when validation finishes.
+
+## Fifth iteration ? premium blue site identity and eSIM's current work
+- Added portfolio-blue.css after the stable base/refinement stylesheet, and included it in Pages deployment workflow.
+- Palette derived from the existing NivIA study panel: midnight/navy surfaces, cobalt actions, slate borders and ice-blue labels. Light green/beige areas were replaced.
+- Current employer eSIM's added to the top of professional timeline; formal job title and start date are **not available** and are not claimed. Current NivIA case also attributes eSIM's context.
+- Portuguese and English UI content preserved; currently 5 experience entries and 15 public projects.
+- 12 portfolio-specific tests passed and 15 individual application/API suites passed.
+- Playwright viewport checks: 1440, 768, 390 and 320 px; no horizontal overflow, runtime errors or video.
+- Playwright checked first professional entry eSIM's, search/category filters and English current-experience language.
+- Axe-core automated WCAG 2/2.1 A and AA audit after contrast correction: 0 violations. Accessibility still warrants human testing.
+- No client information, precise hire date, private credentials or unsupported production claims published.

@@ -48,3 +48,13 @@ Observed: warm ambient gradients, oversized editorial hero, floating map card, v
 - Visual hierarchy inspired by clean, high-density Linear/Raycast/Stripe design principles, without copying proprietary UI assets.
 
 Validation: Node portfolio tests, real-browser responsive screenshots, accessibility checks and GitHub Actions.
+
+## Premium blue unification and career update (2026-11-02)
+
+- All page surfaces now borrow the NivIA right hero study's midnight navy, slate blue and cobalt.
+- Alternating navy surfaces improve section separation without introducing off-palette green or beige blocks.
+- Navigation glass, hero, proof rail, engineering principles, case studies, projects, career timeline, skills, contact and footer share the portfolio-blue.css theme.
+- Brand system tokens are documented in design-tokens.json.
+- Current role: eSIM?s is now the first timeline entry, labeled Atual/Current. Historical conversations substantiate eSIM support operations, NivIA automation/integration and QA but do not provide a formal job title or hiring date. Neither is invented.
+- Case study NivIA is attributed to the eSIM?s context and remains marked R&D/QA, never as deployed production.
+- Contrast, mobile layout, bilingual labels, project filters and motion preferences remain regression gates.

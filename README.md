@@ -1,4 +1,4 @@
-﻿# Cauê Santiago
+# Cauê Santiago
 
 **IA aplicada · Automação · Engenharia de Software · Cloud & Infraestrutura**
 
@@ -19,7 +19,7 @@ Minha trajetória começa na operação: ambientes corporativos, incidentes, ide
 
 ## Estudos de caso
 
-### NivIA — IA para suporte eSIM (P&D / QA)
+### NivIA / eSIM’s — IA para suporte eSIM (P&D / QA)
 
 Engenharia e validação de um assistente de suporte com leitura de telas, triagem N1/N2, orientação passo a passo, regras de roteamento e mecanismos de prevenção de respostas duplicadas. O trabalho envolve integração entre **Python/FastAPI, Chatwoot, n8n, Vision e infraestrutura AWS**, além de regressões e testes em ambiente isolado.
 
@@ -53,8 +53,11 @@ O portfólio distingue demos frontend, documentação estática de APIs e sistem
 
 ## Experiência profissional
 
+**eSIM’s ? atuação atual (automação e IA aplicada):** trabalho técnico com suporte eSIM, desenvolvimento, integração e QA de fluxos N1/N2 da NivIA; Chatwoot, n8n, APIs Python, leitura de telas e transferência humana. Cargo formal e data de início não informados; não são presumidos.
+
 | Empresa | Período | Foco |
 | --- | --- | --- |
+| **eSIM’s** | Atual | Suporte eSIM, IA aplicada, automação NivIA, integração e QA de fluxos N1/N2 |
 | **Oliv-e Saúde** | out/2025–fev/2026 | TI, Jira SM, automação Python/API, chatbot e base de conhecimento |
 | **Helibras** | mar/2025–set/2025 | Suporte N2, Windows/AD, rede e colaboração técnica internacional |
 | **Hitss Brasil** | mai/2024–fev/2025 | SAP ECC/MM, ITSM, acessos e integrações |

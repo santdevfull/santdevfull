@@ -103,3 +103,18 @@ test("reduced-motion and semantic hierarchy survive the replacement", () => {
   assert.match(html, /Human-in-the-loop|humano|human handoff|humano/i);
   assert.ok((html.match(/<h1\b/g)||[]).length===1);
 });
+
+
+test("cohesive blue theme and current eSIM's experience are present", () => {
+  const palette = fs.readFileSync(path.join(here, "portfolio-blue.css"), "utf8");
+  assert.match(html, /href="\.\/portfolio-blue\.css"/);
+  for (const word of ["--navy-950", "--navy-900", "--blue-400", ".projects-section", ".contact-section", ".competencies-section", ".method-section", ".project-card", ".timeline-current"]) {
+    assert.ok(palette.includes(word), "Missing theme component: " + word);
+  }
+  assert.match(html, /class="timeline-current"/);
+  assert.match(html, /<h3>eSIM&#8217;s/);
+  assert.match(html, /data-en="CURRENT"/);
+  assert.match(html, /Chatwoot, n8n, APIs Python/);
+  assert.match(html, /N1\/N2/);
+  assert.doesNotMatch(html, /<video\b/);
+});

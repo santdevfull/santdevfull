@@ -1,14 +1,15 @@
 {
   "color": {
-    "paper": "#f5f4ef",
-    "paper-deep": "#e9e8e0",
-    "ink": "#17232a",
-    "slate": "#61747b",
-    "pine": "#0b3435",
-    "pine-light": "#124a49",
-    "blue": "#2d64f0",
-    "mint": "#b7f7d7",
-    "border": "#d5dbd9"
+    "navy950": "#0b1322",
+    "navy900": "#0f1a2d",
+    "navy850": "#132039",
+    "navy800": "#172640",
+    "surface": "#1b2e4b",
+    "surfaceEdge": "#344862",
+    "cobalt": "#5275e5",
+    "blue400": "#a9c3ff",
+    "text": "#f3f7ff",
+    "muted": "#becee3"
   },
   "font": {
     "display": "Manrope, sans-serif",
@@ -51,5 +52,5 @@
     "adapted": "editorial hierarchy, floating motion, soft ambient color, ticker and responsive media",
     "notCopied": "branding, logistics copy, live metrics, art and assets"
   },
-  "latestDesign": "NivIA / Systems surface, no video; editorial engineering principles section"
+  "latestDesign": "Unified premium blue theme across the whole portfolio plus eSIM?s current experience."
 }

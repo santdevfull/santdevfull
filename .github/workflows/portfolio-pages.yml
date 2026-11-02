@@ -54,7 +54,7 @@ jobs:
             cp -R projects/$name/docs/. dist/$name/
           done
           cp projects/index.html dist/index.html
-          cp projects/portfolio.css projects/portfolio-refinement.css projects/portfolio.js projects/portfolio-motion.js projects/portfolio-data.mjs projects/favicon.svg projects/robots.txt projects/sitemap.xml dist/
+          cp projects/portfolio.css projects/portfolio-refinement.css projects/portfolio-blue.css projects/portfolio.js projects/portfolio-motion.js projects/portfolio-data.mjs projects/favicon.svg projects/robots.txt projects/sitemap.xml dist/
           touch dist/.nojekyll
       - uses: actions/upload-pages-artifact@v4
         with:
