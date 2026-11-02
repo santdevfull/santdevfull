@@ -71,3 +71,12 @@
 - Playwright checked first professional entry eSIM's, search/category filters and English current-experience language.
 - Axe-core automated WCAG 2/2.1 A and AA audit after contrast correction: 0 violations. Accessibility still warrants human testing.
 - No client information, precise hire date, private credentials or unsupported production claims published.
+
+## Final iteration: Atrium-inspired santdev vertical presentation
+- Browser reference inspected with Chromium/Playwright DevTools, including first screen and three scroll checkpoints.
+- Central santdev wordmark and 100svh first-screen design, followed by narrative sections on scroll.
+- Rebuilt responsive HTML, one CSS and one lightweight scroll JS. Removed legacy stylesheet stacking and synthetic media.
+- 15 public projects, five career employers (eSIM's current first), three cases, PT/EN controls, source and demo links.
+- Automated local QA at 1440/768/390/320px; no horizontal overflow, console errors or video.
+- Ten Node portfolio tests passing. Browser axe WCAG A/AA automated violations: zero in final local check.
+- NivIA case described as QA, never as production; no credentials, private client data or unverified title/dates.

@@ -1,56 +1,30 @@
 {
-  "color": {
-    "navy950": "#0b1322",
-    "navy900": "#0f1a2d",
-    "navy850": "#132039",
-    "navy800": "#172640",
-    "surface": "#1b2e4b",
-    "surfaceEdge": "#344862",
-    "cobalt": "#5275e5",
-    "blue400": "#a9c3ff",
-    "text": "#f3f7ff",
-    "muted": "#becee3"
+  "name": "santdev-black-editorial",
+  "reference": "https://atrium-template.modulify.website/",
+  "colors": {
+    "background": "#080808",
+    "surface": "#101112",
+    "raised": "#17191b",
+    "ink": "#f3f1eb",
+    "muted": "#b9b9bb",
+    "accent": "#9eafff"
   },
-  "font": {
-    "display": "Manrope, sans-serif",
-    "technical": "IBM Plex Mono, monospace"
+  "typography": {
+    "display": "Barlow Condensed",
+    "body": "Instrument Sans",
+    "meta": "DM Mono"
   },
-  "spacing": {
-    "unit": 8,
-    "layoutMax": 1248,
-    "bodyLineMax": "68ch"
-  },
-  "radius": {
-    "panel": 18,
-    "control": 10,
-    "pill": 999
-  },
-  "breakpoints": {
-    "tablet": 980,
-    "mobile": 670
+  "layout": {
+    "maxWidth": "1480px",
+    "gutter": "clamp(20px,4.2vw,66px)",
+    "hero": "100svh",
+    "scroll": "vertical"
   },
   "rules": [
-    "No decorative glowing gradients",
-    "Diagram is conceptual, not a production architecture disclosure",
-    "Use real evidence and source-limited claims",
-    "Preserve accessible keyboard and reduced-motion use"
-  ],
-  "motion": {
-    "fast": "180ms",
-    "normal": "260ms",
-    "slow": "600ms",
-    "reducedMotion": "reveal disabled; no autoplay media"
-  },
-  "material": {
-    "surface": "midnight slate + focused cobalt core",
-    "nav": "translucent neutral light",
-    "method": "flat editorial cards with purposeful diagrams",
-    "ambient": "soft neutral"
-  },
-  "reference": {
-    "url": "https://quayside-template.modulify.website/",
-    "adapted": "editorial hierarchy, floating motion, soft ambient color, ticker and responsive media",
-    "notCopied": "branding, logistics copy, live metrics, art and assets"
-  },
-  "latestDesign": "Unified premium blue theme across the whole portfolio plus eSIM?s current experience."
+    "No video",
+    "No scroll hijacking",
+    "No fake production metrics",
+    "Use real work evidence",
+    "Accessible controls and reduced motion"
+  ]
 }

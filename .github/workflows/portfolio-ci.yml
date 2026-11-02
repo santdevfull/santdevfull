@@ -57,5 +57,5 @@ jobs:
           node-version: '22'
       - run: node --check projects/portfolio.js
       - run: node --check projects/portfolio-data.mjs
-      - run: node --check projects/portfolio-motion.js
+      - run: node --check projects/editorial.js
       - run: node --test projects/portfolio.test.mjs
