@@ -35,10 +35,10 @@ jobs:
       - name: Assemble static site
         shell: bash
         run: |
-          mkdir -p dist/habitflow dist/budgetlab dist/pulseops
+          mkdir -p dist/habitflow dist/budgetlab dist/pulseops/demo
           cp projects/habitflow/{index.html,app.mjs,model.mjs,style.css} dist/habitflow/
           cp projects/budgetlab/{index.html,app.mjs,model.mjs,style.css} dist/budgetlab/
-          cp -R projects/pulseops/demo/. dist/pulseops/
+          cp -R projects/pulseops/demo/. dist/pulseops/demo/
           cp projects/index.html dist/index.html
           touch dist/.nojekyll
       - uses: actions/upload-pages-artifact@v4
