@@ -1,0 +1,9 @@
+# Local, non-published browser QA artifacts.
+/chrome-qa-*/
+/portfolio-desktop.png
+/portfolio-mobile.png
+/portfolio-review-*.png
+/portfolio-rendered.html
+/preview-server.pid
+/preview-server.out
+/preview-server.err

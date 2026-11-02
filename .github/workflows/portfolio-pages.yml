@@ -23,6 +23,7 @@ jobs:
           node-version: '22'
       - run: cd projects/habitflow && npm test
       - run: cd projects/budgetlab && npm test
+      - run: node --check projects/portfolio.js && node --check projects/portfolio-data.mjs && node --test projects/portfolio.test.mjs
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -53,6 +54,7 @@ jobs:
             cp -R projects/$name/docs/. dist/$name/
           done
           cp projects/index.html dist/index.html
+          cp projects/portfolio.css projects/portfolio.js projects/portfolio-data.mjs projects/favicon.svg projects/robots.txt projects/sitemap.xml dist/
           touch dist/.nojekyll
       - uses: actions/upload-pages-artifact@v4
         with:

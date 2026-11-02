@@ -47,3 +47,14 @@ jobs:
       - run: python -m pip install -r requirements.txt
       - run: python -m compileall -q app
       - run: python -m pytest -q tests
+  portfolio-site:
+    name: Portfolio website / bilingual catalog
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check projects/portfolio.js
+      - run: node --check projects/portfolio-data.mjs
+      - run: node --test projects/portfolio.test.mjs

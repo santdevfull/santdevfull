@@ -1,0 +1,37 @@
+{
+  "color": {
+    "paper": "#f5f4ef",
+    "paper-deep": "#e9e8e0",
+    "ink": "#17232a",
+    "slate": "#61747b",
+    "pine": "#0b3435",
+    "pine-light": "#124a49",
+    "blue": "#2d64f0",
+    "mint": "#b7f7d7",
+    "border": "#d5dbd9"
+  },
+  "font": {
+    "display": "Manrope, sans-serif",
+    "technical": "IBM Plex Mono, monospace"
+  },
+  "spacing": {
+    "unit": 8,
+    "layoutMax": 1248,
+    "bodyLineMax": "68ch"
+  },
+  "radius": {
+    "panel": 18,
+    "control": 10,
+    "pill": 999
+  },
+  "breakpoints": {
+    "tablet": 980,
+    "mobile": 670
+  },
+  "rules": [
+    "No decorative glowing gradients",
+    "Diagram is conceptual, not a production architecture disclosure",
+    "Use real evidence and source-limited claims",
+    "Preserve accessible keyboard and reduced-motion use"
+  ]
+}

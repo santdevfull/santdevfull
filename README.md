@@ -1,117 +1,76 @@
-<div align="center">
+﻿# Cauê Santiago
 
-<img src="https://raw.githubusercontent.com/santdevfull/santdevfull/main/assets/banner.png" width="100%" alt="santdev">
+**IA aplicada · Automação · Engenharia de Software · Cloud & Infraestrutura**
 
-<br>
-<br>
+Minha trajetória começa na operação: ambientes corporativos, incidentes, identidade e acesso, suporte global e processos ITSM. Hoje aplico essa experiência para projetar automações, APIs e fluxos de IA que precisam funcionar com **contexto, testes, rastreabilidade e transferência humana quando necessário**.
 
-# santdev
-
-### AI Engineer · Automation · Intelligent Systems
-
-Building intelligent systems that connect AI, automation, APIs and infrastructure.
-
-<br>
-
-<a href="https://github.com/santdevfull">
-  <img src="https://img.shields.io/badge/GitHub-santdevfull-181717?style=flat-square&logo=github&logoColor=white">
-</a>
-<a href="https://openai.com">
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white">
-</a>
-<a href="https://n8n.io">
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white">
-</a>
-<a href="https://www.python.org">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-</a>
-
-</div>
+[**Conheça o portfólio interativo**](https://santdevfull.github.io/santdevfull/) · [**LinkedIn**](https://www.linkedin.com/in/cau%C3%AA-santiago-6432a4229) · [**Contato por e-mail**](mailto:cauesantiagosilva@gmail.com)
 
 ---
 
-## `01` — About
+## O que eu construo
 
-I'm an **AI Engineer & Automation Specialist** focused on building
-intelligent systems that solve real-world problems.
+| Frente | Atuação prática |
+| --- | --- |
+| **IA aplicada a operações** | Agentes de suporte, fluxos guiados, leitura de capturas de tela, validação contextual, transferência humana e QA |
+| **Automação e integração** | Python, APIs REST, n8n, Chatwoot, Jira Service Management e workflows operacionais |
+| **Backend e confiabilidade** | FastAPI, regras de negócio, SQLite/PostgreSQL, Redis, idempotência, filas, testes e GitHub Actions |
+| **Cloud e infraestrutura** | AWS/Lightsail, Azure, Docker, Linux, Windows Server, Active Directory, Entra ID e ITSM |
 
-My work combines:
+## Estudos de caso
 
-- Artificial Intelligence
-- LLM-powered applications
-- AI Agents
-- Workflow Automation
-- APIs & Webhooks
-- Backend systems
-- Databases
-- Cloud infrastructure
+### NivIA — IA para suporte eSIM (P&D / QA)
 
-I focus on turning AI capabilities into **reliable systems that can
-understand context, execute workflows, integrate with external services
-and operate in production.**
+Engenharia e validação de um assistente de suporte com leitura de telas, triagem N1/N2, orientação passo a passo, regras de roteamento e mecanismos de prevenção de respostas duplicadas. O trabalho envolve integração entre **Python/FastAPI, Chatwoot, n8n, Vision e infraestrutura AWS**, além de regressões e testes em ambiente isolado.
 
----
+**Status:** projeto de engenharia/QA. Não apresento publicação produtiva nem disponibilizo código ou dados internos da operação.
 
-## `02` — What I Build
+### Automação de Service Desk — Oliv-e Saúde
 
-<table>
-<tr>
+Implantação de processos no **Jira Service Management**, automações Python/API, chatbot de triagem, widget de abertura estruturada e documentação de troubleshooting. O currículo registra **aproximadamente 30% de redução em tickets manuais** e **mais de 40 artigos técnicos** produzidos.
 
-<td width="50%" valign="top">
+### Abyssal Bio-Fish Farm — prototipagem de gameplay e 3D
 
-### 🤖 AI Agents
-
-Intelligent systems built around LLMs and structured decision-making.
-
-```text
-LLM
- ↓
-Context
- ↓
-Agent
- ↓
-Tools / APIs
- ↓
-Action
-```
-
-</td>
-</tr>
-</table>
+Desenvolvimento independente de uma experiência Roblox com gameplay em **Luau**, assets 3D em **Blender**, integração no Roblox Studio, simulações multiplayer e QA de persistência. **Status: candidato de playtest privado/local**, não jogo público lançado.
 
 ---
 
-## 03 - Software Portfolio
+## Projetos de software
 
-**15 working projects**, from browser utilities to persistent backend services, with 50 automated tests and GitHub Actions CI.
+São **15 projetos públicos** entre apps web, dados, produtividade, arquitetura backend e APIs; parte em repositórios independentes e parte disponível no [catálogo do perfil](projects/CATALOG.md).
 
-[**Explore the interactive portfolio**](https://santdevfull.github.io/santdevfull/) | [Project catalog](projects/CATALOG.md) | [Portfolio CI](https://github.com/santdevfull/santdevfull/actions/workflows/portfolio-ci.yml)
+| Área | Projetos |
+| --- | --- |
+| Frontend e acessibilidade | [HabitFlow](https://github.com/santdevfull/habitflow), [FocusForge](https://github.com/santdevfull/focusforge), [ChromaCheck](https://github.com/santdevfull/chromacheck), [NoteVault](https://github.com/santdevfull/notevault), [TypeMeter](https://github.com/santdevfull/typemeter) |
+| Produtividade e dados | [BudgetLab](https://github.com/santdevfull/budgetlab), [SprintBoard](https://github.com/santdevfull/sprintboard), [StudyLoop](https://github.com/santdevfull/studyloop), [InvoiceKit](https://github.com/santdevfull/invoicekit), [DataLens](projects/datalens) |
+| APIs e sistemas | [PulseOps](https://github.com/santdevfull/pulseops), [FlagPilot](projects/flagpilot), [QueueCraft](projects/queuecraft), [LedgerForge](projects/ledgerforge), [EventShield](projects/eventshield) |
 
-| Project | Difficulty | Stack | Preview |
-|---|---|---|---|
-| [HabitFlow](https://github.com/santdevfull/habitflow) | Simple | JavaScript | [Live demo](https://santdevfull.github.io/santdevfull/habitflow/) |
-| [FocusForge](https://github.com/santdevfull/focusforge) | Simple | JavaScript | [Live demo](https://santdevfull.github.io/focusforge/) |
-| [ChromaCheck](https://github.com/santdevfull/chromacheck) | Simple | Accessibility / JS | [Live demo](https://santdevfull.github.io/chromacheck/) |
-| [NoteVault](https://github.com/santdevfull/notevault) | Simple | JavaScript | [Live demo](https://santdevfull.github.io/notevault/) |
-| [TypeMeter](https://github.com/santdevfull/typemeter) | Simple | JavaScript | [Live demo](https://santdevfull.github.io/typemeter/) |
-| [BudgetLab](https://github.com/santdevfull/budgetlab) | Medium | Data / JavaScript | [Live demo](https://santdevfull.github.io/santdevfull/budgetlab/) |
-| [SprintBoard](https://github.com/santdevfull/sprintboard) | Medium | Kanban / JavaScript | [Live demo](https://santdevfull.github.io/sprintboard/) |
-| [StudyLoop](https://github.com/santdevfull/studyloop) | Medium | Education / JS | [Live demo](https://santdevfull.github.io/studyloop/) |
-| [InvoiceKit](https://github.com/santdevfull/invoicekit) | Medium | Business / JavaScript | [Live demo](https://santdevfull.github.io/invoicekit/) |
-| [DataLens](projects/datalens) | Medium | CSV / JavaScript | [Live demo](https://santdevfull.github.io/santdevfull/datalens/) |
-| [PulseOps](https://github.com/santdevfull/pulseops) | Advanced | FastAPI / SQLite | [Live demo](https://santdevfull.github.io/santdevfull/pulseops/demo/) |
-| [FlagPilot](projects/flagpilot) | Advanced | FastAPI / Feature flags | [API docs](https://santdevfull.github.io/santdevfull/flagpilot/) |
-| [QueueCraft](projects/queuecraft) | Advanced | FastAPI / Job queue | [API docs](https://santdevfull.github.io/santdevfull/queuecraft/) |
-| [LedgerForge](projects/ledgerforge) | Advanced | FastAPI / Ledger | [API docs](https://santdevfull.github.io/santdevfull/ledgerforge/) |
-| [EventShield](projects/eventshield) | Advanced | FastAPI / Security | [API docs](https://santdevfull.github.io/santdevfull/eventshield/) |
+**[Abrir demos e documentação dos 15 projetos](https://santdevfull.github.io/santdevfull/#projects)**
 
-**Backend transparency:** API documentation pages are static. Run the Python APIs locally or deploy their Docker containers to interact with real endpoints.
+O portfólio distingue demos frontend, documentação estática de APIs e sistemas privados em QA. Os serviços Python não são apresentados como hospedados no GitHub Pages.
 
-## 04 - Engineering practices
+---
 
-- CI: unit and integration tests on every push and pull request.
-- CD: GitHub Pages for browser demos and static API documentation.
-- Quality: integer-cent calculations, deterministic rollout, SQLite transactions, HMAC verification, accessibility and validation.
-- Maintainable independent projects: READMEs, source, tests, licenses and deployment workflows.
+## Experiência profissional
 
-All projects are educational portfolio examples and not production services.
+| Empresa | Período | Foco |
+| --- | --- | --- |
+| **Oliv-e Saúde** | out/2025–fev/2026 | TI, Jira SM, automação Python/API, chatbot e base de conhecimento |
+| **Helibras** | mar/2025–set/2025 | Suporte N2, Windows/AD, rede e colaboração técnica internacional |
+| **Hitss Brasil** | mai/2024–fev/2025 | SAP ECC/MM, ITSM, acessos e integrações |
+| **Tech Mahindra** | mar/2022–dez/2023 | Service Desk global, IAM, Active Directory/Entra ID e onboarding |
+
+## Formação e certificações
+
+- Graduação em **Análise e Desenvolvimento de Sistemas**, Universidade Anhembi Morumbi — 2024–2026, em andamento conforme o currículo fornecido.
+- **ITIL 4 Foundation** — 2024
+- **Microsoft Azure Fundamentals (AZ-900)** — 2024
+- **AWS Certified Cloud Practitioner (CLF-C02)** — 2025
+
+**Idiomas:** português nativo, inglês profissional, espanhol básico.
+
+---
+
+*Os resultados quantitativos profissionais são os informados no currículo, não métricas da NivIA. Os projetos privados são descritos apenas em nível conceitual, sem dados de clientes, credenciais ou informações operacionais sensíveis.*
+
+[**Portfólio**](https://santdevfull.github.io/santdevfull/) · [**GitHub**](https://github.com/santdevfull) · [**LinkedIn**](https://www.linkedin.com/in/cau%C3%AA-santiago-6432a4229)
