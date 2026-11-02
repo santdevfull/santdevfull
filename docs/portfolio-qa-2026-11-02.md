@@ -80,3 +80,12 @@
 - Automated local QA at 1440/768/390/320px; no horizontal overflow, console errors or video.
 - Ten Node portfolio tests passing. Browser axe WCAG A/AA automated violations: zero in final local check.
 - NivIA case described as QA, never as production; no credentials, private client data or unverified title/dates.
+
+## AI Specialist position detail (user-supplied LinkedIn text)
+- eSIM's: May 2026?present; AI Specialist, self-employed, remote.
+- Current position now contains AI agents/prompt engineering, Python automation, n8n flows with webhooks/REST, integrations Odoo CRM/Chatwoot, triage/routing, exception handling, ongoing improvements and process documentation.
+- Supersedes prior notes claiming formal title/start date unspecified. Full title and dates now supplied directly by the user. No external LinkedIn editing link is published.
+
+## Contact email update
+- Updated public portfolio contact email and the profile README to santdev.contato@gmail.com, with matching mailto link and regression assertion.
+- Four browser viewport checks passed, including transient webfont fallback handling at mobile widths; axe WCAG A/AA automated violations: zero.

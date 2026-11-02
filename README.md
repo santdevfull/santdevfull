@@ -4,7 +4,7 @@
 
 Minha trajetória começa na operação: ambientes corporativos, incidentes, identidade e acesso, suporte global e processos ITSM. Hoje aplico essa experiência para projetar automações, APIs e fluxos de IA que precisam funcionar com **contexto, testes, rastreabilidade e transferência humana quando necessário**.
 
-[**Conheça o portfólio interativo**](https://santdevfull.github.io/santdevfull/) · [**LinkedIn**](https://www.linkedin.com/in/cau%C3%AA-santiago-6432a4229) · [**Contato por e-mail**](mailto:cauesantiagosilva@gmail.com)
+[**Conheça o portfólio interativo**](https://santdevfull.github.io/santdevfull/) · [**LinkedIn**](https://www.linkedin.com/in/cau%C3%AA-santiago-6432a4229) · [**Contato por e-mail**](mailto:santdev.contato@gmail.com)
 
 ---
 
@@ -53,11 +53,11 @@ O portfólio distingue demos frontend, documentação estática de APIs e sistem
 
 ## Experiência profissional
 
-**eSIM’s ? atuação atual (automação e IA aplicada):** trabalho técnico com suporte eSIM, desenvolvimento, integração e QA de fluxos N1/N2 da NivIA; Chatwoot, n8n, APIs Python, leitura de telas e transferência humana. Cargo formal e data de início não informados; não são presumidos.
+**eSIM’s | Especialista IA | mai/2026 – atual | autônomo, remoto:** criação, manutenção e evolução de agentes de IA para atendimento, suporte e operações digitais. Automações com Python (dados, processos e arquivos) e fluxos low-code no n8n (triggers, condições, webhooks e APIs REST). Integração com Odoo CRM, Chatwoot, bases de conhecimento e sistemas internos. Engenharia de prompts, regras e exceções; triagem, classificação e encaminhamento de casos; correções, melhoria contínua e documentação de fluxos e procedimentos.
 
 | Empresa | Período | Foco |
 | --- | --- | --- |
-| **eSIM’s** | Atual | Suporte eSIM, IA aplicada, automação NivIA, integração e QA de fluxos N1/N2 |
+| **eSIM’s** | mai/2026–atual | **Especialista IA** (autônomo, remoto); agentes de IA, Python, n8n, Odoo CRM, Chatwoot, APIs REST, automação e QA |
 | **Oliv-e Saúde** | out/2025–fev/2026 | TI, Jira SM, automação Python/API, chatbot e base de conhecimento |
 | **Helibras** | mar/2025–set/2025 | Suporte N2, Windows/AD, rede e colaboração técnica internacional |
 | **Hitss Brasil** | mai/2024–fev/2025 | SAP ECC/MM, ITSM, acessos e integrações |

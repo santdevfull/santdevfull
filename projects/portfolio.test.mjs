@@ -59,10 +59,18 @@ test("vertical presentation includes full chapters and no forced horizontal care
 });
 test("eSIM's experience and NivIA case are accurate about QA",()=>{
  assert.match(html,/eSIM&#8217;s/);
- assert.match(html,/Chatwoot, n8n, APIs Python/);
+ for(const text of ["Chatwoot","n8n","APIs REST","Odoo CRM"]){assert.ok(html.includes(text),text)}
  assert.match(html,/N1\/N2/);
  assert.match(html,/QA/);
- assert.match(html,/Cargo formal e data de in&#237;cio n&#227;o informados/);
+ assert.match(html,/data-en="AI Specialist">Especialista IA/);
+ assert.match(html,/MAY 2026 &#8212; PRESENT/);
+ assert.match(html,/MAI 2026 &#8212; ATUAL/);
+ assert.match(html,/data-en="Self-employed &#183; Remote">Aut&#244;nomo &#183; Remoto/);
+ assert.equal((html.match(/class="career-focus-item"/g)||[]).length,4);
+ for(const text of ["Odoo CRM","Chatwoot","Python automation","triggers","webhooks","exception handling","triage","flowcharts","low-code"]){
+   assert.ok(html.includes(text),text);
+ }
+ assert.doesNotMatch(html,/Formal title and start date are not specified|Cargo formal e data de in&#237;cio n&#227;o informados/);
  assert.match(html,/Sem m&#233;tricas de produ&#231;&#227;o/);
  assert.doesNotMatch(html,/production-ready|published into production/);
 });
@@ -86,7 +94,7 @@ test("static page has no synthetic media, tracking scripts or private phone",()=
  assert.doesNotMatch(html,/<video|<source|flow-film|media\/signal-flow|href="tel:/i);
  assert.doesNotMatch(html,/<script[^>]+src="https?:\/\//);
  assert.doesNotMatch(html,/googletagmanager|gtag\(|facebook\.net/);
- assert.match(html,/mailto:cauesantiagosilva@gmail.com/);
+ assert.match(html,/mailto:santdev.contato@gmail.com/);
 });
 test("all required distribution assets exist",()=>{
  for(const file of ["editorial.css","editorial.js","portfolio.js","portfolio-data.mjs","favicon.svg"]){

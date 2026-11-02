@@ -297,3 +297,19 @@ h1,h2,h3,p{margin:0}
 @media(prefers-reduced-motion:reduce){
  *,*:before,*:after{scroll-behavior:auto!important;transition-duration:.001ms!important;animation-duration:.001ms!important}
 }
+
+/* Current role: detailed AI Specialist responsibilities, integrated as an editorial dossier. */
+.career-employment{margin-top:8px;color:#c6c7cd;font:400 11px/1.6 var(--mono)}
+.career-entry.current .career-role{color:#eff0f8;font-size:15px;font-weight:600}
+.career-focus{grid-column:2 / -1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:clamp(20px,3.5vw,54px);row-gap:24px;padding:17px 0 1px}
+.career-focus-item{border-top:1px solid #46474c;padding-top:15px;min-width:0}
+.career-focus-item h4{margin:0 0 9px;color:#d0d6fa;font:500 10px/1.6 var(--mono)}
+.career-focus-item p{font-size:12px;line-height:1.8;color:#c5c5c9;margin:0;max-width:56ch}
+@media(max-width:800px){.career-focus{grid-column:2;grid-template-columns:1fr 1fr;row-gap:20px}}
+@media(max-width:540px){.career-focus{grid-column:auto;grid-template-columns:1fr;row-gap:13px;padding-top:0}.career-focus-item{padding-top:13px}.career-employment{font-size:10px}}
+
+/* Prevent fallback font width from causing transient sideways scroll before the display font loads. */
+.hero { overflow: clip; }
+
+/* Keep condensed-display fallback widths contained until webfonts finish loading. */
+@media(max-width:540px){.chapter-intro{overflow:clip;}}

@@ -1,7 +1,7 @@
 # santdev / Black Editorial Portfolio
 
 ## Purpose
-A recruiter-facing AI and tech portfolio connecting documented IT operations experience with automation, NivIA QA, cloud and 15 public software projects. Current eSIM's experience is first; do not invent formal job title/start date.
+A recruiter-facing AI and tech portfolio connecting documented IT operations experience with automation, NivIA QA, cloud and 15 public software projects. Current eSIM's experience is first: AI Specialist (self-employed, remote), May 2026 to present, supplied by the user from their LinkedIn position.
 
 ## Reference and craft
 Atrium https://atrium-template.modulify.website/ inspected with Chromium/Playwright DevTools. Reference observations: one dominant centered title, compact navigation, vertical scrolling narrative, restrained image/text rhythm. We use no original template assets, code, photography or typography.
@@ -24,3 +24,6 @@ Purposeful blue only for dot, focus, current role and scroll progress. No video,
 Skills: local frontend-design, ECC design-system, frontend-design-direction, browser-qa and frontend-a11y.
 Node tests; Playwright browsers at 1440/768/390/320; axe automated WCAG 2/2.1 A/AA; no horizontal overflow or console errors.
 Reduced motion respected. All case-study facts qualified, NivIA QA not falsely presented as production.
+
+## Employment detail update
+Verified from the user's pasted LinkedIn position: Especialista IA at eSIM's; May 2026 to present, self-employed and remote. Responsibilities include AI agents and prompt design, Python automation, n8n triggers/webhooks/REST, Odoo CRM, Chatwoot, knowledge bases, triage/routing/response normalization, incident correction and operational documentation. All details are displayed bilingually on the timeline. Avoid linking a private LinkedIn edit-form URL; the site uses the public profile elsewhere.
