@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="280" viewBox="0 0 1280 280" role="img" aria-labelledby="title desc">
+  <title id="title">NivIA — AI support engineering</title>
+  <desc id="desc">Conceptual quality assurance flow: screen context, knowledge and safety rules, guided support with human escalation.</desc>
+  <rect width="1280" height="280" fill="#141516"/>
+  <path d="M1 1H1279V279H1Z" stroke="#414247" stroke-width="2" fill="none"/>
+  <path d="M40 55H1240 M40 224H1240" stroke="#3e3f43" fill="none"/>
+  <g font-family="Consolas, 'Liberation Mono', monospace" font-size="15" letter-spacing="2" fill="#bebfc6">
+    <text x="45" y="38">01 / SELECTED WORK</text>
+    <text x="1235" y="38" text-anchor="end">eSIM'S · R&amp;D / QA</text>
+    <text x="45" y="255">PYTHON / FASTAPI / CHATWOOT / N8N / AWS</text>
+    <text x="1235" y="255" text-anchor="end" fill="#9eafff">ILLUSTRATIVE FLOW, NOT LIVE METRICS</text>
+  </g>
+  <g font-family="'Arial Narrow', 'Helvetica Neue', Arial, sans-serif" fill="#f3f1eb">
+    <text x="50" y="143" font-size="95" font-weight="700" letter-spacing="-2">NivIA</text><circle cx="297" cy="133" r="7" fill="#9eafff"/>
+    <text x="51" y="182" font-family="Consolas, monospace" font-size="18" fill="#c4c5c9" letter-spacing="2">INTELLIGENT eSIM SUPPORT</text>
+  </g>
+  <g font-family="Consolas, 'Liberation Mono', monospace" font-size="17">
+    <rect x="520" y="99" width="214" height="93" fill="#202225" stroke="#62646c"/>
+    <rect x="768" y="99" width="214" height="93" fill="#303646" stroke="#8799c7"/>
+    <rect x="1016" y="99" width="217" height="93" fill="#202225" stroke="#62646c"/>
+    <text x="540" y="133" fill="#9eafff" font-size="14">A / INPUT</text>
+    <text x="540" y="164" fill="#f3f1eb">Screen + context</text>
+    <text x="788" y="133" fill="#c4d0ff" font-size="14">B / VERIFY</text>
+    <text x="788" y="164" fill="#f3f1eb">Knowledge + rules</text>
+    <text x="1036" y="133" fill="#9eafff" font-size="14">C / RESPOND</text>
+    <text x="1036" y="164" fill="#f3f1eb">Guide / handoff</text>
+  </g>
+  <g stroke="#9eafff" stroke-width="2" fill="none">
+    <path d="M734 145h30m-6 -6 6 6 -6 6"/>
+    <path d="M982 145h30m-6 -6 6 6 -6 6"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+  <title id="title">santdev. — Cauê Santiago</title>
+  <desc id="desc">Black premium editorial branding for santdev, applied AI, automation and software engineering.</desc>
+  <rect width="1280" height="440" fill="#080808"/>
+  <g stroke="#303033" stroke-width="1" fill="none">
+    <path d="M34 34H1246V406H34Z"/>
+    <path d="M34 91H1246 M34 348H1246"/>
+    <path d="M80 34V91 M1200 34V91 M80 348V406 M1200 348V406"/>
+    <path d="M640 96V119 M640 329V348" stroke="#43454a"/>
+  </g>
+  <g fill="#b7b8be" font-family="Consolas, 'Liberation Mono', monospace" font-size="15" letter-spacing="2">
+    <text x="78" y="71">CAUÊ SANTIAGO / AI ENGINEERING</text>
+    <text x="1201" y="71" text-anchor="end">SÃO PAULO · BRAZIL</text>
+    <text x="78" y="388">ENGINEERED FROM REAL OPERATIONS</text>
+    <text x="1201" y="388" text-anchor="end">PORTFOLIO / 2026</text>
+  </g>
+  <g font-family="'Arial Narrow', 'Helvetica Neue', Arial, sans-serif" text-anchor="middle">
+    <text x="620" y="267" font-size="200" font-stretch="condensed" font-weight="700" letter-spacing="-10" textLength="870" lengthAdjust="spacingAndGlyphs" fill="#f3f1eb">santdev</text><circle cx="1099" cy="245" r="16" fill="#9eafff"/>
+    <text x="640" y="320" font-family="Consolas, 'Liberation Mono', monospace" font-size="20" fill="#c7c8ce" letter-spacing="4">AI SYSTEMS / AUTOMATION / ENGINEERING</text>
+  </g>
+  <circle cx="1148" cy="378" r="4" fill="#9eafff"/>
+  <g stroke="#9eafff" stroke-width="2" fill="none"><path d="M641 92V109"/></g>
+</svg>

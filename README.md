@@ -1,79 +1,114 @@
-# Cauê Santiago
+<!--
+  santdev / GitHub profile
+  Editorial style: projects/editorial.css + projects/design-tokens.json
+  Render-safe Markdown and SVG only; no external badge counters or telemetry.
+-->
+<p align="center">
+  <img src="./assets/profile-hero.svg" alt="santdev. — IA aplicada, automação e engenharia de software" width="100%">
+</p>
 
-**IA aplicada · Automação · Engenharia de Software · Cloud & Infraestrutura**
+<p align="center">
+  <strong>Cauê Santiago</strong> &nbsp;·&nbsp; Especialista IA na eSIM’s &nbsp;·&nbsp; Remoto, Brasil
+</p>
 
-Minha trajetória começa na operação: ambientes corporativos, incidentes, identidade e acesso, suporte global e processos ITSM. Hoje aplico essa experiência para projetar automações, APIs e fluxos de IA que precisam funcionar com **contexto, testes, rastreabilidade e transferência humana quando necessário**.
-
-[**Conheça o portfólio interativo**](https://santdevfull.github.io/santdevfull/) · [**LinkedIn**](https://www.linkedin.com/in/cau%C3%AA-santiago-6432a4229) · [**Contato por e-mail**](mailto:santdev.contato@gmail.com)
-
----
-
-## O que eu construo
-
-| Frente | Atuação prática |
-| --- | --- |
-| **IA aplicada a operações** | Agentes de suporte, fluxos guiados, leitura de capturas de tela, validação contextual, transferência humana e QA |
-| **Automação e integração** | Python, APIs REST, n8n, Chatwoot, Jira Service Management e workflows operacionais |
-| **Backend e confiabilidade** | FastAPI, regras de negócio, SQLite/PostgreSQL, Redis, idempotência, filas, testes e GitHub Actions |
-| **Cloud e infraestrutura** | AWS/Lightsail, Azure, Docker, Linux, Windows Server, Active Directory, Entra ID e ITSM |
-
-## Estudos de caso
-
-### NivIA / eSIM’s — IA para suporte eSIM (P&D / QA)
-
-Engenharia e validação de um assistente de suporte com leitura de telas, triagem N1/N2, orientação passo a passo, regras de roteamento e mecanismos de prevenção de respostas duplicadas. O trabalho envolve integração entre **Python/FastAPI, Chatwoot, n8n, Vision e infraestrutura AWS**, além de regressões e testes em ambiente isolado.
-
-**Status:** projeto de engenharia/QA. Não apresento publicação produtiva nem disponibilizo código ou dados internos da operação.
-
-### Automação de Service Desk — Oliv-e Saúde
-
-Implantação de processos no **Jira Service Management**, automações Python/API, chatbot de triagem, widget de abertura estruturada e documentação de troubleshooting. O currículo registra **aproximadamente 30% de redução em tickets manuais** e **mais de 40 artigos técnicos** produzidos.
-
-### Abyssal Bio-Fish Farm — prototipagem de gameplay e 3D
-
-Desenvolvimento independente de uma experiência Roblox com gameplay em **Luau**, assets 3D em **Blender**, integração no Roblox Studio, simulações multiplayer e QA de persistência. **Status: candidato de playtest privado/local**, não jogo público lançado.
+<p align="center">
+  <a href="https://santdevfull.github.io/santdevfull/">PORTFÓLIO ↗</a>
+  &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/cau%C3%AA-santiago-6432a4229">LINKEDIN ↗</a>
+  &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="mailto:santdev.contato@gmail.com">CONTATO ↗</a>
+  &nbsp;&nbsp; / &nbsp;&nbsp;
+  <a href="./docs/PROFILE_EN.md">ENGLISH ↗</a>
+</p>
 
 ---
 
-## Projetos de software
+### 01 / Da operação aos sistemas inteligentes
 
-São **15 projetos públicos** entre apps web, dados, produtividade, arquitetura backend e APIs; parte em repositórios independentes e parte disponível no [catálogo do perfil](projects/CATALOG.md).
+Trabalho na interseção entre **IA aplicada, automação e engenharia de software**, usando experiência prática em suporte, infraestrutura e operações de TI para criar soluções com contexto, rastreabilidade e testes.
 
-| Área | Projetos |
-| --- | --- |
-| Frontend e acessibilidade | [HabitFlow](https://github.com/santdevfull/habitflow), [FocusForge](https://github.com/santdevfull/focusforge), [ChromaCheck](https://github.com/santdevfull/chromacheck), [NoteVault](https://github.com/santdevfull/notevault), [TypeMeter](https://github.com/santdevfull/typemeter) |
-| Produtividade e dados | [BudgetLab](https://github.com/santdevfull/budgetlab), [SprintBoard](https://github.com/santdevfull/sprintboard), [StudyLoop](https://github.com/santdevfull/studyloop), [InvoiceKit](https://github.com/santdevfull/invoicekit), [DataLens](projects/datalens) |
-| APIs e sistemas | [PulseOps](https://github.com/santdevfull/pulseops), [FlagPilot](projects/flagpilot), [QueueCraft](projects/queuecraft), [LedgerForge](projects/ledgerforge), [EventShield](projects/eventshield) |
+Desde **maio de 2026**, atuo como **Especialista IA na eSIM’s**, de forma autônoma e remota. Desenvolvo e evoluo agentes de IA, automações em Python, fluxos no n8n e integrações com Chatwoot, Odoo CRM, APIs REST e bases de conhecimento. Também trabalho com engenharia de prompts, triagem, tratamento de exceções, documentação e melhoria contínua.
 
-**[Abrir demos e documentação dos 15 projetos](https://santdevfull.github.io/santdevfull/#projects)**
-
-O portfólio distingue demos frontend, documentação estática de APIs e sistemas privados em QA. Os serviços Python não são apresentados como hospedados no GitHub Pages.
+A proposta é simples: **entender o problema antes de automatizar a solução.**
 
 ---
 
-## Experiência profissional
+### 02 / Trabalho selecionado
 
-**eSIM’s | Especialista IA | mai/2026 – atual | autônomo, remoto:** criação, manutenção e evolução de agentes de IA para atendimento, suporte e operações digitais. Automações com Python (dados, processos e arquivos) e fluxos low-code no n8n (triggers, condições, webhooks e APIs REST). Integração com Odoo CRM, Chatwoot, bases de conhecimento e sistemas internos. Engenharia de prompts, regras e exceções; triagem, classificação e encaminhamento de casos; correções, melhoria contínua e documentação de fluxos e procedimentos.
+<p align="center">
+  <img src="./assets/nivia-systems.svg" alt="NivIA: fluxo conceitual de suporte eSIM, da interpretação da tela à orientação e transferência humana" width="100%">
+</p>
 
-| Empresa | Período | Foco |
-| --- | --- | --- |
-| **eSIM’s** | mai/2026–atual | **Especialista IA** (autônomo, remoto); agentes de IA, Python, n8n, Odoo CRM, Chatwoot, APIs REST, automação e QA |
-| **Oliv-e Saúde** | out/2025–fev/2026 | TI, Jira SM, automação Python/API, chatbot e base de conhecimento |
-| **Helibras** | mar/2025–set/2025 | Suporte N2, Windows/AD, rede e colaboração técnica internacional |
-| **Hitss Brasil** | mai/2024–fev/2025 | SAP ECC/MM, ITSM, acessos e integrações |
-| **Tech Mahindra** | mar/2022–dez/2023 | Service Desk global, IAM, Active Directory/Entra ID e onboarding |
+**NivIA · eSIM’s — agentes de IA e suporte contextual**
 
-## Formação e certificações
+Desenvolvimento, integração e validação em **QA** de fluxos de suporte eSIM N1/N2, combinando interpretação de capturas de tela, conhecimento, regras de roteamento e escalonamento humano. Stack: **Python, FastAPI, Chatwoot, n8n, Vision e AWS**. *Case de engenharia/P&D: não representa métricas ou publicação produtiva.*
 
-- Graduação em **Análise e Desenvolvimento de Sistemas**, Universidade Anhembi Morumbi — 2024–2026, em andamento conforme o currículo fornecido.
-- **ITIL 4 Foundation** — 2024
-- **Microsoft Azure Fundamentals (AZ-900)** — 2024
-- **AWS Certified Cloud Practitioner (CLF-C02)** — 2025
+**Oliv-e Saúde — automação de Service Desk**
 
-**Idiomas:** português nativo, inglês profissional, espanhol básico.
+Implementação de processos no **Jira Service Management**, integrações Python/API, chatbot de triagem e documentação de troubleshooting. Resultados registrados no histórico profissional: **aproximadamente 30% menos tickets manuais** e **mais de 40 artigos técnicos**.
+
+**Abyssal Bio-Fish Farm — engenharia de jogo e simulação**
+
+Projeto independente de prototipagem no Roblox, com **Luau**, assets **Blender**, integração com Roblox Studio e testes locais de multiplayer e persistência. *Candidato privado de playtest; não lançado publicamente.*
+
+→ [Ver os estudos de caso no portfólio](https://santdevfull.github.io/santdevfull/#cases)
 
 ---
 
-*Os resultados quantitativos profissionais são os informados no currículo, não métricas da NivIA. Os projetos privados são descritos apenas em nível conceitual, sem dados de clientes, credenciais ou informações operacionais sensíveis.*
+### 03 / Código, experimentos e sistemas
 
-[**Portfólio**](https://santdevfull.github.io/santdevfull/) · [**GitHub**](https://github.com/santdevfull) · [**LinkedIn**](https://www.linkedin.com/in/cau%C3%AA-santiago-6432a4229)
+**15 projetos públicos**, entre aplicações web e APIs. O código é aberto; demos web e documentações de backend são identificadas separadamente.
+
+**01 — Experiências web e acessibilidade**
+
+[HabitFlow](https://github.com/santdevfull/habitflow) · [FocusForge](https://github.com/santdevfull/focusforge) · [ChromaCheck](https://github.com/santdevfull/chromacheck) · [NoteVault](https://github.com/santdevfull/notevault) · [TypeMeter](https://github.com/santdevfull/typemeter)
+
+**02 — Produtividade, dados e interfaces**
+
+[BudgetLab](https://github.com/santdevfull/budgetlab) · [SprintBoard](https://github.com/santdevfull/sprintboard) · [StudyLoop](https://github.com/santdevfull/studyloop) · [InvoiceKit](https://github.com/santdevfull/invoicekit) · [DataLens](./projects/datalens)
+
+**03 — Backends, arquitetura e operações**
+
+[PulseOps](https://github.com/santdevfull/pulseops) · [FlagPilot](./projects/flagpilot) · [QueueCraft](./projects/queuecraft) · [LedgerForge](./projects/ledgerforge) · [EventShield](./projects/eventshield)
+
+→ [Explorar os 15 projetos e demonstrações](https://santdevfull.github.io/santdevfull/#projects)
+
+---
+
+### 04 / Trajetória profissional
+
+**2026 → agora** · **eSIM’s** — Especialista IA, autônomo/remoto. Agentes de IA, prompts, Python, n8n, CRM, integrações e QA.
+
+**2025–2026** · **Oliv-e Saúde** — Analista de TI. Automações, suporte, ITSM e Jira Service Management.
+
+**2025** · **Helibras** — Suporte N2. Windows, Active Directory, rede e incidentes complexos.
+
+**2024–2025** · **Hitss Brasil** — Suporte SAP. SAP ECC/MM, acessos e ITSM.
+
+**2022–2023** · **Tech Mahindra** — Suporte N1. Service Desk global, identidade, acessos e onboarding.
+
+→ [Ver a trajetória completa](https://santdevfull.github.io/santdevfull/#experience)
+
+---
+
+### 05 / Ferramentas e fundamentos
+
+**IA + automação** &nbsp; Python · FastAPI · agentes de IA · n8n · webhooks · APIs REST · Odoo CRM · Chatwoot · Vision QA
+
+**Desenvolvimento** &nbsp; JavaScript · SQL · PostgreSQL · SQLite · Redis · Docker · GitHub Actions · testes automatizados
+
+**Operações + cloud** &nbsp; AWS / Lightsail · Azure · Linux · Windows Server · Active Directory · Entra ID · ITSM
+
+**Formação** &nbsp; Análise e Desenvolvimento de Sistemas — Universidade Anhembi Morumbi (2024–2026; conclusão não confirmada).
+
+**Certificações informadas** &nbsp; ITIL 4 Foundation (2024) · Microsoft AZ-900 (2024) · AWS Cloud Practitioner (2025).
+
+---
+
+<p align="center">
+  <strong>Construir com contexto. Validar antes de escalar.</strong><br>
+  <sub>Para colaborar em IA, automação ou engenharia de software:</sub><br><br>
+  <a href="mailto:santdev.contato@gmail.com">santdev.contato@gmail.com</a>
+  &nbsp;·&nbsp;
+  <a href="https://santdevfull.github.io/santdevfull/">santdev — portfólio</a>
+</p>
