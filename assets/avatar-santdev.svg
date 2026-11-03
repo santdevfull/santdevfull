@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+<title id="title">santdev brand avatar</title>
+<desc id="desc">Matte-black circular logo with white lowercase sd and one muted-blue period; editorial, technical and minimal.</desc>
+<rect width="800" height="800" fill="#080808"/>
+<circle cx="400" cy="400" r="347" fill="none" stroke="#333438" stroke-width="2"/>
+<g stroke="#414146" fill="none">
+<path d="M400 56V89 M400 711V744 M56 400H89 M711 400H744"/>
+<path d="M145 164L164 145 M636 655L655 636"/>
+</g>
+<text x="380" y="500" text-anchor="middle" font-family="'Arial Narrow','Helvetica Neue',Arial,sans-serif" font-size="330" font-weight="700" letter-spacing="-23" textLength="415" lengthAdjust="spacingAndGlyphs" fill="#f3f1eb">sd</text>
+<circle cx="642" cy="475" r="29" fill="#9eafff"/>
+<path d="M214 591H586" fill="none" stroke="#3f4147" stroke-width="2"/>
+<text x="400" y="647" text-anchor="middle" font-family="Consolas,monospace" font-size="33" letter-spacing="9" fill="#c7c8ca">SANTDEV</text>
+</svg>

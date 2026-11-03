@@ -6,6 +6,8 @@ on:
     paths:
       - 'README.md'
       - 'assets/profile-hero.svg'
+      - 'assets/avatar-santdev.svg'
+      - 'assets/avatar-santdev.png'
       - 'assets/nivia-systems.svg'
       - 'docs/PROFILE_EN.md'
       - 'docs/github-profile-design.md'
@@ -15,6 +17,8 @@ on:
     paths:
       - 'README.md'
       - 'assets/profile-hero.svg'
+      - 'assets/avatar-santdev.svg'
+      - 'assets/avatar-santdev.png'
       - 'assets/nivia-systems.svg'
       - 'docs/PROFILE_EN.md'
       - 'docs/github-profile-design.md'

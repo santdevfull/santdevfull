@@ -32,3 +32,11 @@ GitHub sanitizes custom CSS and JavaScript in README, so the full web layout can
 - assets/nivia-systems.svg — conceptual case illustration
 - docs/PROFILE_EN.md — translated profile
 - scripts/verify_profile.py — static verification
+
+## Matching GitHub avatar and account bio
+
+- assets/avatar-santdev.svg is the editable vector mark, assets/avatar-santdev.png is the 800x800 upload asset.
+- Avatar and the left-side About panel are account-level settings, not repository README. The current CLI token lacks GitHub's user scope; no account metadata or avatar was changed automatically.
+- Recommended account name: Cauê Santiago. Recommended bio: AI Specialist @ eSIM's | Python, n8n, AI agents & automation | santdev.
+- Recommended public website: https://santdevfull.github.io/santdevfull/
+- In GitHub Settings > Public profile, upload avatar-santdev.png and apply name, bio, website. Existing company affiliation is preserved unless the user changes it.

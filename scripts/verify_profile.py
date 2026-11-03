@@ -32,7 +32,7 @@ for language, content in (("PT", pt), ("EN", en)):
         target = (base / link.split("#", 1)[0]).resolve()
         assert target.is_relative_to(ROOT) and target.exists(), (language, link)
 
-for filename in ("assets/profile-hero.svg", "assets/nivia-systems.svg"):
+for filename in ("assets/profile-hero.svg", "assets/nivia-systems.svg", "assets/avatar-santdev.svg"):
     source = (ROOT / filename).read_text(encoding="utf-8")
     tree = ET.fromstring(source)
     assert tree.tag == "{http://www.w3.org/2000/svg}svg"
@@ -40,6 +40,11 @@ for filename in ("assets/profile-hero.svg", "assets/nivia-systems.svg"):
     assert len(source) < 15000
     for banned in ("<script", "<foreignObject", "<image", "http://fonts.", "data:image/", "onload="):
         assert banned not in source, (filename, banned)
-    assert "santdev" in source.lower() if filename.endswith("profile-hero.svg") else "NivIA" in source
+    assert "santdev" in source.lower() if "profile-hero" in filename or "avatar-santdev" in filename else "NivIA" in source
 
 print("OK: 15 linked projects per language, SVGs, Markdown links, QA claims and contact.")
+
+avatar = (ROOT / 'assets/avatar-santdev.png').read_bytes()
+assert avatar[:8] == bytes([137,80,78,71,13,10,26,10])
+assert tuple(__import__('struct').unpack('>II', avatar[16:24])) == (800, 800)
+print('OK: branded PNG avatar 800x800.')
